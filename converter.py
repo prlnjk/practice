@@ -74,7 +74,7 @@ def converter(n):
 if __name__ == "__main__":
     while True:
         try:
-            n = input("Enter any number to convert it into words or 'exit' to stop: ")
+            n = 2
             if n == "exit":
                 break
             int(n)
