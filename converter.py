@@ -74,7 +74,7 @@ def converter(n):
 if __name__ == "__main__":
     while True:
         try:
-            n = 2
+            n = input()
             if n == "exit":
                 break
             int(n)
